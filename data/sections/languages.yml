@@ -1,0 +1,11 @@
+- language: "English"
+  proficiency: "Professional"
+
+- language: "Spanish"
+  proficiency: "Native"
+
+- language: "French"
+  proficiency: "Conversational"
+
+- language: "Portuguese"
+  proficiency: "Conversational"
