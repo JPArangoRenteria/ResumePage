@@ -1,0 +1,18 @@
+title: "Juan Pablo Arango"
+email: "juanpablorenteria@cmail.carleton.ca"
+description: "Software Engineer | Embedded Systems | Networking | AI Enthusiast"
+baseurl: "" # Leave as "" unless your site is in a subfolder
+url: "https://jparangorenteria.github.io/ResumePage/" # Replace with your GitHub Pages URL
+theme: "modern-resume-theme"
+
+# Resume sections
+sections:
+  - experience
+  - education
+  - skills
+  - projects
+  - languages
+
+# Optional settings
+github: "https://github.com/JPArangoRenteria"
+linkedin: "https://linkedin.com/in/juan-pablo-arango-0380b0191"
