@@ -1,0 +1,26 @@
+- title: "LEO Satellite Network Simulator (Capstone)"
+  start_date: "Aug 2024"
+  end_date: "Apr 2025"
+  summary:
+    - "Simulated OSPF routing with machine learning-based failure predictions."
+    - "Designed tools to evaluate satellite link quality and rerouting."
+
+- title: "SDN Green Routing Tool"
+  start_date: "Sep 2024"
+  end_date: "Dec 2024"
+  summary:
+    - "Developed energy-aware MPLS optimization using Expectation Maximization."
+    - "Deployed routing modules on Kubernetes for network performance testing."
+
+- title: "Voting System Simulator"
+  start_date: "Apr 2024"
+  summary:
+    - "Created a JavaScript-based app to visualize social choice paradoxes."
+    - "Analyzed Borda count, Condorcet criteria violations in real scenarios."
+
+- title: "Network Performance Analysis Tool"
+  start_date: "Mar 2024"
+  end_date: "May 2024"
+  summary:
+    - "Built Python-based suite using IPerf, Wireshark for link diagnostics."
+    - "Automated test case generation and visual reporting for packet loss and jitter."
