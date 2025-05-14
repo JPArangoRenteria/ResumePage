@@ -1,0 +1,11 @@
+- school: "Carleton University"
+  degree: "B.Eng -- Communication Engineering"
+  start_date: "Sep 2020"
+  end_date: "May 2025"
+  location: "Ottawa, ON"
+
+- school: "University of Waterloo"
+  degree: "B.Math -- Applied Mathematics"
+  start_date: "Sep 2016"
+  end_date: "Aug 2020"
+  location: "Waterloo, ON"
