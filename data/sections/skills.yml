@@ -1,0 +1,53 @@
+- name: "Languages"
+  skills:
+    - "Python"
+    - "C/C++"
+    - "Golang"
+    - "Java"
+    - "JavaScript"
+    - "TypeScript"
+    - "TCL"
+    - "Bash"
+    - "MATLAB"
+    - "R"
+
+- name: "Frameworks"
+  skills:
+    - "React.js"
+    - "Next.js"
+    - "Flutter"
+    - "Node.js"
+
+- name: "Tools"
+  skills:
+    - "Docker"
+    - "Kubernetes"
+    - "Jenkins"
+    - "GitLab CI/CD"
+    - "Git"
+    - "Linux"
+
+- name: "Databases"
+  skills:
+    - "PostgreSQL"
+    - "MySQL"
+    - "Firebase"
+    - "NoSQL"
+
+- name: "Networking"
+  skills:
+    - "TCP/IP"
+    - "OSPF"
+    - "BGP"
+    - "MPLS"
+    - "RSVP"
+    - "LDP"
+    - "Wireshark"
+    - "IXIA"
+    - "IPerf"
+
+- name: "Testing/Infra"
+  skills:
+    - "Regression testing"
+    - "Traffic simulation"
+    - "Automated test development"
