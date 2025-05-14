@@ -14,50 +14,46 @@ Software engineer with strong foundations in mathematics, communication engineer
 - **GitHub:** [github.com/JPArangoRenteria](https://github.com/JPArangoRenteria)
 - **LinkedIn:** [linkedin.com/in/juan-pablo-arango-0380b0191](https://linkedin.com/in/juan-pablo-arango-0380b0191)
 
-# Experience
-{% for job in site.data.sections.experience %}
-## {{ job.company }} — {{ job.position }}  
-*{{ job.start_date }} to {{ job.end_date }}*  
-{{ job.location }}
+# Skills
+- **Languages:** Python, C/C++, Golang, Java, JavaScript, TypeScript, TCL, Bash, MATLAB, R
+- **Frameworks:** React.js, Next.js, Flutter, Node.js
+- **Tools:** Docker, Kubernetes, Jenkins, GitLab CI/CD, Git, Linux
+- **Databases:** PostgreSQL, MySQL, Firebase, NoSQL
+- **Networking:** TCP/IP, OSPF, BGP, MPLS, RSVP, LDP, Wireshark, IXIA, IPerf
+- **Testing/Infra:** Regression testing, traffic simulation, automated test development
 
-<ul>
-  {% for bullet in job.summary %}
-  <li>{{ bullet }}</li>
-  {% endfor %}
-</ul>
+# Experience
+{% for item in site.data.sections.experience %}
+## {{ item.company }} | *{{ item.position }}*
+*{{ item.location }}*  
+*{{ item.duration }}*
+
+{% for responsibility in item.responsibilities %}
+- {{ responsibility }}
+{% endfor %}
 {% endfor %}
 
 # Education
-{% for edu in site.data.sections.education %}
-## {{ edu.school }}  
-*{{ edu.degree }}*  
-*{{ edu.start_date }} to {{ edu.end_date }}*  
-{{ edu.location }}
-{% endfor %}
+{% for item in site.data.sections.education %}
+## {{ item.degree }} | {{ item.institution }}
+*{{ item.location }}*  
+*{{ item.duration }}*
 
-# Skills
-{% for skill_group in site.data.sections.skills %}
-## {{ skill_group.name }}
-<ul>
-  {% for skill in skill_group.skills %}
-  <li>{{ skill }}</li>
-  {% endfor %}
-</ul>
 {% endfor %}
 
 # Projects
-{% for project in site.data.sections.projects %}
-## {{ project.title }}  
-*{{ project.start_date }} to {{ project.end_date | default: 'Present' }}*
+{% for item in site.data.sections.projects %}
+## {{ item.name }}  
+*{{ item.duration }}*  
 
-<ul>
-  {% for summary in project.summary %}
-  <li>{{ summary }}</li>
-  {% endfor %}
-</ul>
+{% for description in item.descriptions %}
+- {{ description }}
+{% endfor %}
 {% endfor %}
 
 # Languages
-{% for language in site.data.sections.languages %}
-- **{{ language.language }}:** {{ language.proficiency }}
-{% endfor %}
+- English – Professional
+- Spanish – Native
+- French – Conversational
+- Portuguese – Conversational
+
